@@ -1,0 +1,11 @@
+Package: snupassr
+Title: Get credentials from lastpass cli
+Version: 0.0.0.9000
+Authors@R: person("Peter", "Schmiedeskamp", email = "peter.schmiedeskamp@socrata.com", role = c("aut", "cre"))
+Description: Frequently retrieving credentials from lastpass can be a pain. This library shells out to the lastpass cli utility in order to make getting these easy.
+Depends: R (>= 3.3.3)
+License: MIT
+Encoding: UTF-8
+LazyData: true
+Imports: purrr
+RoxygenNote: 6.0.1
