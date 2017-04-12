@@ -1,0 +1,17 @@
+#+TITLE: Retrieve credentials from lastpass cli
+
+Frequently retrieving credentials from lastpass can be a pain. This
+library shells out to the lastpass cli utility in order to make
+getting these easy.
+
+* Install
+Use [[https://www.rstudio.com/products/rpackages/devtools/][devtools]]:
+
+#+BEGIN_SRC R
+  devtools::install_github("pschmied/snupassr")
+#+END_SRC
+
+* Load the library
+#+BEGIN_SRC R
+  library(snupassr)
+#+END_SRC
